@@ -12,3 +12,4 @@ Map<String, Integer> m = new HashMap<>();
 ```
 With this new map object I was able to create a nested for loop that got the count of each word in the word array and map the string of that word to the count of how many times that word appeared.
 ### Output
+![](/Images/Output1.png)
