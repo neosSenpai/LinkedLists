@@ -13,3 +13,27 @@ Map<String, Integer> m = new HashMap<>();
 With this new map object I was able to create a nested for loop that got the count of each word in the word array and map the string of that word to the count of how many times that word appeared.
 ### Output
 ![](/Images/Output1.png)
+
+## Question 2
+Write a non-recursive algorithm (follow pseudocode style similar to Code Fragment 3.11) for finding, by link hopping, the middle node of a doubly linked list with header and trailer sentinels.
+
+### Approach
+```
+node frontEnd = head
+node rearEnd = tail
+
+while frontEnd != rearEnd and frontEnd!= NULL and readEnd != Null
+do
+   frontEnd = frontEnd -> next;
+   rearEnd = readEnd -> previous;
+end while
+
+if frontEnd != NULL
+   print frontEnd is middle node
+else
+   print no middle node present
+end if
+```
+#### Time requirment
+If the linked list size (n) is odd, it will take take time in order of (n+1)/2. Otherwise it will take time in order of n
+   
