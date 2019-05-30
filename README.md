@@ -36,4 +36,11 @@ end if
 ```
 #### Time requirment
 If the linked list size (n) is odd, it will take take time in order of (n+1)/2. Otherwise it will take time in order of n
+
+## Question 3A
+
+Question 3A is out of date and will be updated when I find time. When I first started this assignment I was merely practicing with linked list. Now that I have some practice with linked list Question 3A will be updated when I find time to make the program with proper encapsulation techniques.
+
+## Question 3B
+To be Updated
    
